@@ -9,6 +9,6 @@ with CTE AS(
     {{function1('STARTED_AT')}}
     
     
-    FROM {{ source('DEMO', 'BIKE') }} WHERE STARTED_AT!='stoptime'
+    FROM {{ ref('stg_bike') }} WHERE STARTED_AT!='"starttime"' and STARTED_AT!='starttime'
 )
 SELECT * FROM CTE

@@ -6,7 +6,7 @@ with BIKE as(
 	START_STATIO_ID AS STATION_LAT,
 	END_STATION_NAME AS STATION_LANG
 
-    FROM {{ source('DEMO', 'BIKE') }}
+    FROM {{ ref('stg_bike') }}
     WHERE STATION_ID!='start station id'
 )
 select * from BIKE
