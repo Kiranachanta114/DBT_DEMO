@@ -1,5 +1,5 @@
 
-# DBT_DEMO
+# Weather-bike-analytics
 
 ![dbt](https://img.shields.io/badge/dbt-Core-FF694B?logo=dbt&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?logo=snowflake&logoColor=white)
@@ -7,7 +7,7 @@
 
 ## Overview
 
-DBT_DEMO is a hands-on analytics engineering project built with **dbt Core** and **Snowflake**. The project transforms raw weather and bike-sharing datasets into clean, analytics-ready models using a layered data modeling approach.
+Weather-bike-analytics is a hands-on analytics engineering project built with **dbt Core** and **Snowflake**. The project transforms raw weather and bike-sharing datasets into clean, analytics-ready models using a layered data modeling approach.
 
 The objective was to practice dbt development by building reusable staging models, dimensional models, fact tables, tests, macros, and documentation while following dbt best practices.
 
@@ -177,7 +177,7 @@ Working on this project helped me strengthen my understanding of:
 ## Clone Repository
 
 ```bash
-git clone https://github.com/Kiranachanta114/DBT_DEMO.git
+git clone https://github.com/Kiranachanta114/Weather-bike-analytics.git
 cd DBT_DEMO
 ```
 
